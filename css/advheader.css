@@ -1,0 +1,151 @@
+.indexaction {
+  background: url("../images/index_n_26.jpg") no-repeat center top !important; }
+  .indexaction > a {
+    color: #ff7200 !important; }
+
+#header {
+  width: 100%; }
+  #header > .topNav {
+    height: 32px;
+    position: relative;
+    z-index: 99;
+    background: url("../images/repxBg.png") repeat-x 0 0; }
+    #header > .topNav > .top-text {
+      margin: 0 auto; }
+      #header > .topNav > .top-text > div {
+        display: inline-block; }
+      #header > .topNav > .top-text > .t-left > span {
+        font-size: 11px;
+        line-height: 32px; }
+      #header > .topNav > .top-text > .t-left > span:nth-of-type(3) {
+        color: #ff6923;
+        font-weight: 600; }
+      #header > .topNav > .top-text > .t-right {
+        float: right; }
+        #header > .topNav > .top-text > .t-right > a {
+          color: #767676;
+          font-size: 11px;
+          line-height: 32px;
+          margin-left: 13px; }
+        #header > .topNav > .top-text > .t-right > a:nth-of-type(3) {
+          font-size: 12px;
+          color: #000;
+          font-weight: 500; }
+        #header > .topNav > .top-text > .t-right > span {
+          margin-left: 5px;
+          font-size: 11px;
+          line-height: 32px; }
+          #header > .topNav > .top-text > .t-right > span > a {
+            color: #ff6923; }
+  #header > .logoArea {
+    height: 86px;
+    background: url("../images/repxBg.png") repeat-x 0 -32px; }
+    #header > .logoArea > .area-center {
+      margin: 0 auto; }
+      #header > .logoArea > .area-center > span {
+        display: block; }
+      #header > .logoArea > .area-center > span:nth-of-type(1) {
+        float: left;
+        padding-top: 12px; }
+        #header > .logoArea > .area-center > span:nth-of-type(1) a img {
+          width: 300px;
+          height: 58px; }
+      #header > .logoArea > .area-center > span:nth-of-type(2) {
+        float: right;
+        padding-top: 8px; }
+  #header > .navgation {
+    height: 36px;
+    background: url("../images/repxBg.png") repeat-x 0 -128px; }
+    #header > .navgation > .top-nav {
+      margin: 0 auto; }
+      #header > .navgation > .top-nav > ul > li:hover {
+        background: url("../images/index_n_26.jpg") no-repeat center top; }
+        #header > .navgation > .top-nav > ul > li:hover > a {
+          color: #ff7200; }
+        #header > .navgation > .top-nav > ul > li:hover > ul {
+          display: block; }
+      #header > .navgation > .top-nav > ul > li {
+        height: 36px;
+        line-height: 36px;
+        float: left;
+        overflow: visible;
+        text-align: center;
+        border-right: solid 1px #2d7ab6;
+        border-left: solid 1px #6aade0; }
+        #header > .navgation > .top-nav > ul > li > a {
+          padding: 0 16px;
+          font-size: 15px;
+          color: #fff;
+          font-weight: 300; }
+        #header > .navgation > .top-nav > ul > li > ul {
+          position: absolute;
+          background-color: #fff;
+          display: none;
+          width: 130px;
+          padding-bottom: 5px;
+          border: 1px solid #f5c43c;
+          -webkit-border-radius: 0 0 5px 5px;
+                  border-radius: 0 0 5px 5px;
+          margin-top: -1px;
+          z-index: 20; }
+          #header > .navgation > .top-nav > ul > li > ul li a {
+            font-size: 12px;
+            display: block;
+            font-weight: 500;
+            height: 30px;
+            line-height: 30px; }
+          #header > .navgation > .top-nav > ul > li > ul li a:hover {
+            display: block;
+            height: 30px;
+            color: #fff;
+            line-height: 30px;
+            background-color: #ff8e16; }
+
+#footer {
+  font-size: 12px;
+  color: #656565;
+  width: 100%;
+  background: url("../images/footerBg.png") repeat-x 0 0;
+  padding: 35px 0 70px;
+  margin-top: 20px; }
+  #footer > div {
+    text-align: center;
+    line-height: 28px; }
+
+#adviserbody {
+  background: url("../images/bg.png") repeat-x 0 0;
+  height: 500px; }
+
+#adviserth .adviser-header {
+  margin: 0 auto;
+  position: relative;
+  z-index: 9;
+  width: 1050px;
+  height: 100px;
+  padding: 9px 39px 0 48px;
+  background: url("../images/headerbg.png") no-repeat 0 0; }
+  #adviserth .adviser-header .adviser-top ul {
+    text-align: right; }
+    #adviserth .adviser-header .adviser-top ul li {
+      display: inline;
+      padding: 0 18px;
+      line-height: 28px;
+      border-right: 1px solid #ccc; }
+      #adviserth .adviser-header .adviser-top ul li a {
+        font-size: 12px;
+        color: #000; }
+    #adviserth .adviser-header .adviser-top ul li:nth-last-child(1) {
+      border-right: 1px solid #fff; }
+  #adviserth .adviser-header .avdiser-logo {
+    width: 250px;
+    height: 50px;
+    margin-top: -8px; }
+    #adviserth .adviser-header .avdiser-logo a img {
+      width: 250px; }
+  #adviserth .adviser-header .phone {
+    width: 240px;
+    height: 33px;
+    float: right;
+    margin-top: -22px; }
+    #adviserth .adviser-header .phone img {
+      width: 240px; }

@@ -1,0 +1,30 @@
+.cpt {
+  margin-top: 15px; }
+  .cpt .top {
+    width: 180px;
+    height: 80px;
+    background: url("../images/cpt.gif") no-repeat;
+    background-size: 100%; }
+  .cpt .con {
+    background-color: #dee8f0;
+    -webkit-border-radius: 0 0 5px 5px;
+            border-radius: 0 0 5px 5px;
+    padding-top: 5px; }
+    .cpt .con ul li {
+      width: 178px;
+      height: 36px;
+      background: url("../images/cpt-top.jpg") no-repeat;
+      background-size: 98%;
+      background-position-x: 3px; }
+      .cpt .con ul li a {
+        display: block;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 36px;
+        height: 36px;
+        margin-left: 40px;
+        width: 138px;
+        overflow: hidden; }
+      .cpt .con ul li a:hover {
+        color: #1e50a2;
+        text-decoration: underline; }

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+#live {
+  width: 100%; }
+  #live .live-video {
+    width: 1300px;
+    height: 632px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    margin: 30px auto; }
+    #live .live-video > div {
+      float: left; }
+    #live .live-video .videoDiv {
+      width: 960px;
+      height: 630px; }
+    #live .live-video .live-text {
+      width: 333px;
+      height: 630px;
+      margin-left: 4px;
+      border: 1px solid #ddd; }
+      #live .live-video .live-text .text-middle {
+        height: 630px;
+        overflow-y: auto;
+        overflow-x: hidden; }
+        #live .live-video .live-text .text-middle ul li {
+          margin-bottom: 8px; }
+          #live .live-video .live-text .text-middle ul li .live-answer .answer-a {
+            line-height: 26px;
+            font-size: 13px;
+            color: #2d2d2d;
+            padding-left: 15px; }
+            #live .live-video .live-text .text-middle ul li .live-answer .answer-a span {
+              color: #000;
+              font-weight: 500;
+              margin-left: 5px; }
+          #live .live-video .live-text .text-middle ul li .live-answer .answer-b {
+            font-size: 14px;
+            padding: 0 25px;
+            word-wrap: break-word;
+            /*遇到空格整个单词显示不完就自动换行到下一行*/
+            word-break: break-all;
+            /*如果一行没有空格就到头截断单词换行*/ }

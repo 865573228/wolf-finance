@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>INDEX</title>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=7,IE=8,IE=9,IE=10" />
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+        <link rel="stylesheet" type="text/css" href="./css/cpt2.css">
+        <link rel="stylesheet" type="text/css" href="./css/idangerous.swiper.css">
+        <script>
+            function IsPC() {
+                var userAgentInfo = navigator.userAgent;
+                var Agents = ["Android", "iPhone",
+                    "SymbianOS", "Windows Phone",
+                    "iPad", "iPod"
+                ];
+                var flag = true;
+                for (var v = 0; v < Agents.length; v++) {
+                    if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                        flag = false;
+                        break;
+                    }
+                }
+                return flag;
+            }
+
+            if (!IsPC()) {
+
+                var currentHref = window.location.href;
+                var url = "";
+                if (currentHref.indexOf("www") != -1) {
+                    url = currentHref.replace("www", "m");
+                } else {
+                    url = currentHref.replace("http://", "http://m.");
+                }
+                console.log(url);
+                window.location.href = url;
+
+            }
+        </script>
+        
+        <link rel="stylesheet" type="text/css" href="./css/header.css">
+        <link rel="stylesheet" type="text/css" href="./css/global.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="topNav">
+                <div class="w980 top-text">
+                    <div class="t-left">
+                        <span><img src="./images/index_n_12.jpg"/></span>
+                        <span>24小时客服热线:</span>
+                        <span>4008-696-183</span>
+                    </div>
+                    <div class="t-right">
+                        <span><img src="./images/index_n_14.jpg"/></span>
+                        <span><a href='javascript:{ window.location.href = "http://" + window.location.host + "/website/login#login"}'>用户登录</a></span>
+                        <span><img src="./images/index_n_15.jpg"/></span>
+                        <span><a href='javascript:{ window.location.href = "http://" + window.location.host + "/website/login"}'>注册</a></span>
+                        <a href="javascript:void(0);">欢迎您,***</a>
+                        <a href="javascript:void(0);">手机版本</a>
+                    </div>
+                </div>
+            </div>
+            <div class="logoArea">
+                <div class="area-center w980">
+                    <span class="logo">
+                        <a href="javascript:void(0);">
+                            <img src="./images/91jin1.png" />
+                        </a>
+                    </span>
+                    <span class="text-right">
+                        <a href="javascript:void(0);">
+                            <img src="./images/index_n_13.jpg"/>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="navgation">
+                <div class="top-nav w980">
+                    <ul>
+                        <li><a href="javascript:void(0);">首页</a></li>
+                        <li>
+                            <a href="javascript:void(0);">贵金属投资</a>
+                            <ul>
+                                <li><a href="javascript:void(0);">投资特点</a></li>
+                                <li><a href="javascript:void(0);">交易细则</a></li>
+                                <li><a href="javascript:void(0);">亏盈计算</a></li>
+                                <li><a href="javascript:void(0);">风险控制</a></li>
+                                <li><a href="javascript:void(0);">贵金属百科</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">行情资讯</a>
+                            <ul>
+                                <li><a href="javascript:void(0);">行情中心</a></li>
+                                <li><a href="javascript:void(0);">国鑫日评</a></li>
+                                <li><a href="javascript:void(0);">分析研究</a></li>
+                                <li><a href="javascript:void(0);">ETF持仓</a></li>
+                                <li><a href="javascript:void(0);">财经日历</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0);">开户交易</a></li>
+                        <li><a href="javascript:void(0);">服务大厅</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="indexContent">
+            <div class="ban-box">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0);">
+                                <img src="./images/ban1.jpg" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0);">
+                                <img src="./images/ban2.jpg" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0);">
+                                <img src="./images/ban3.jpg" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pagination"></div>
+                </div>
+            </div>
+            
+            <div class="adclick w980" style="height: 58px;position: absolute;margin-top: -58px;z-index: 99;left: 50%;margin-left: -490px;">
+                <img src="./images/adclick.png" style="width: 980px;"/>
+            </div>
+            
+            <div class="ticker">
+                <div class="ticker-a">重要公告:</div>
+                <div class="ticker-b">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)">关于津贵所农行开通个人网上银行签约业务的通知[07/12] </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)">关于津贵所农行开通个人网上银行签约业务的通知关于津贵所农行开通个人网上银行签约业务的通知[07/12] </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)">关于津贵所农行开通个人网上银行签约业务的通知关于津贵所农行开通个人网上银行签约业务的通知[07/12] </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticker-c"><a href="javascript:void(0)">更多>></a></div>
+            </div>
+            <div class="home-content w980">
+
+                <div class="home-l fl" style="width: 780px;">
+                    <div class="content1">
+                        <div class="col-md-6">
+                            <div class="new-box">
+                                <div class="title">
+                                    <h3>每日评论</h3>
+                                    <span><a href="javascript:void(0);">更多>></a></span>
+                                </div>
+                                <div class="content">
+                                    <div class="new-zy">
+                                        <div class="imgleft fl">
+                                            <a href="javascript:void(0);">
+                                            <img src="./images/moren_1.jpg" />
+                                        </a>
+                                        </div>
+                                        <div class="textBox fr">
+                                            <h3><a href="javascript:void(0);">早评：美国遭恐怖袭击 黄金获避险走高</a></h3>
+                                            <span>昨日，贵金属现货黄金与现货白银继续走高，连续四日上升，显示出...[06/14]</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="new-zy">
+                                        <div class="imgleft fl">
+                                            <a href="javascript:void(0);">
+                                            <img src="./images/moren_1.jpg" />
+                                        </a>
+                                        </div>
+                                        <div class="textBox fr">
+                                            <h3><a href="javascript:void(0);">早评：美国遭恐怖袭击 黄金获避险走高</a></h3>
+                                            <span>昨日，贵金属现货黄金与现货白银继续走高，连续四日上升，显示出...[06/14]</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="new-zy">
+                                        <div class="imgleft fl">
+                                            <a href="javascript:void(0);">
+                                            <img src="./images/moren_1.jpg" />
+                                        </a>
+                                        </div>
+                                        <div class="textBox fr">
+                                            <h3><a href="javascript:void(0);">早评：美国遭恐怖袭击 黄金获避险走高</a></h3>
+                                            <span>昨日，贵金属现货黄金与现货白银继续走高，连续四日上升，显示出...[06/14]</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content-ul">
+                                    <ul>
+                                        <li><a href="javascript:void(0);">贵金属现货黄金与现货白银继属现货黄金与现货白银续走高，连续四日上升，显示</a><span>[06/14]</span></li>
+                                        <li><a href="javascript:void(0);">贵金属现货黄金与现货白银继续走高，连续四日上升，显示</a><span>[06/14]</span></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="new-box">
+                                <div class="title">
+                                    <h3>每日评论</h3>
+                                    <span><a href="javascript:void(0);">更多>></a></span>
+                                </div>
+                                <div class="content">
+                                    <div class="new-zy">
+                                        <div class="imgleft fl">
+                                            <a href="javascript:void(0);">
+                                            <img src="./images/moren_1.jpg" />
+                                        </a>
+                                        </div>
+                                        <div class="textBox fr">
+                                            <h3><a href="javascript:void(0);">早评：美国遭恐怖袭击 黄金获避险走高</a></h3>
+                                            <span>昨日，贵金属现货黄金与现货白银继续走高，连续四日上升，显示出...[06/14]</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="new-zy">
+                                        <div class="imgleft fl">
+                                            <a href="javascript:void(0);">
+                                            <img src="./images/moren_1.jpg" />
+                                        </a>
+                                        </div>
+                                        <div class="textBox fr">
+                                            <h3><a href="javascript:void(0);">早评：美国遭恐怖袭击 黄金获避险走高</a></h3>
+                                            <span>昨日，贵金属现货黄金与现货白银继续走高，连续四日上升，显示出...[06/14]</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="new-zy">
+                                        <div class="imgleft fl">
+                                            <a href="javascript:void(0);">
+                                            <img src="./images/moren_1.jpg" />
+                                        </a>
+                                        </div>
+                                        <div class="textBox fr">
+                                            <h3><a href="javascript:void(0);">早评：美国遭恐怖袭击 黄金获避险走高</a></h3>
+                                            <span>昨日，贵金属现货黄金与现货白银继续走高，连续四日上升，显示出...[06/14]</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content-ul">
+                                    <ul>
+                                        <li><a href="javascript:void(0);">贵金属现货黄金与现货白银继属现货黄金与现货白银续走高，连续四日上升，显示</a><span>[06/14]</span></li>
+                                        <li><a href="javascript:void(0);">贵金属现货黄金与现货白银继续走高，连续四日上升，显示asdasd</a><span>[06/14]</span></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div style="clear: both;"></div>
+                         <div class="content1">
+                        <div class="col-md-6">
+                            <div class="new-box">
+                                <div class="title">
+                                    <h3>每日评论</h3>
+                                    <span><a href="javascript:void(0);">更多>></a></span>
+                                </div>
+                                <div class="detail-content">
+                                    <ul>
+                                        <li><span class="t-left"><a href="javascript:void(0);">如何寻找止损点？什么是现货白银止损点？a</a></span><span class="t-right">[06/13]</span></li>
+                                        <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span><span class="t-right">[06/13]</span></li>
+                                        <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？c</a></span><span class="t-right">[06/13]</span></li>
+                                        <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？d</a></span><span class="t-right">[06/13]</span></li>
+                                        <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？e</a></span><span class="t-right">[06/13]</span></li>
+                                        <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？f</a></span><span class="t-right">[06/13]</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="new-box">
+                                <div class="title">
+                                    <h3>投资课堂</h3>
+                                    <span><a href="javascript:void(0);">更多>></a></span>
+                                </div>
+                                <div class="detail-content">
+                                    <ul>
+                                        <li><span class="t-left"><a href="javascript:void(0);">如何寻找止损点？什么是现货白银止损点？a</a></span><span class="t-right">[06/13]</span></li>
+                                        <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span><span class="t-right">[06/13]</span></li>
+                                        <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？c</a></span><span class="t-right">[06/13]</span></li>
+                                        <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？d</a></span><span class="t-right">[06/13]</span></li>
+                                        <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？e</a></span><span class="t-right">[06/13]</span></li>
+                                        <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？f</a></span><span class="t-right">[06/13]</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                  
+                    <div style="clear: both;"></div>
+                    <div style="width: 770px;height: 420px;margin-left: 5px;margin-top: 10px;">
+                        <img src="./images/zwt.png" style="width: 770px;height: 420px;border: 1px solid #ccc;" />
+                    </div>
+                    
+                      <div style="clear: both;"></div>
+                    
+                    <div class="ad-index-d" style="width: 770px;height: 125px;margin-left: 5px;margin-top: 10px;">
+                        <a href="javascript:void(0)">
+                            <img src="https://me.91guoxin.com/static/account/images/dw_zc20151203img1.jpg" style="width: 770px;height: 125px;" />
+                        </a>
+                    </div>
+                   
+                    <div class="w980">
+                        <div class="w580">
+    <div class="new-box">
+        <div class="title">
+            <h3>贵金属百科</h3>
+            <span><a href="javascript:void(0);">更多>></a></span>
+        </div>
+        <div class="detail-content">
+            <ul>
+                <li><span class="t-left"><a href="javascript:void(0);">如何寻找止损点？什么是现货白银止损点？a</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？c</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？d</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？e</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？f</a></span><span class="t-right">[06/13]</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+                        <div class="w580">
+    <div class="new-box">
+        <div class="title">
+            <h3>贵金属百科</h3>
+            <span><a href="javascript:void(0);">更多>></a></span>
+        </div>
+        <div class="detail-content">
+            <ul>
+                <li><span class="t-left"><a href="javascript:void(0);">如何寻找止损点？什么是现货白银止损点？a</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？c</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？d</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？e</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？f</a></span><span class="t-right">[06/13]</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+                    </div>
+                    
+                    <div class="w980">
+                        <div class="w580">
+    <div class="new-box">
+        <div class="title">
+            <h3>贵金属百科</h3>
+            <span><a href="javascript:void(0);">更多>></a></span>
+        </div>
+        <div class="detail-content">
+            <ul>
+                <li><span class="t-left"><a href="javascript:void(0);">如何寻找止损点？什么是现货白银止损点？a</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？c</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？d</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？e</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？f</a></span><span class="t-right">[06/13]</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+                        <div class="w580">
+    <div class="new-box">
+        <div class="title">
+            <h3>贵金属百科</h3>
+            <span><a href="javascript:void(0);">更多>></a></span>
+        </div>
+        <div class="detail-content">
+            <ul>
+                <li><span class="t-left"><a href="javascript:void(0);">如何寻找止损点？什么是现货白银止损点？a</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？c</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？d</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？e</a></span><span class="t-right">[06/13]</span></li>
+                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？f</a></span><span class="t-right">[06/13]</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+                    </div>
+
+                    <div class="ad-index-d" style="width: 970px;height: 125px;margin-left: 5px;clear: both;padding: 10px 0;">
+                        <a href="javascript:void(0)">
+                            <img src="https://me.91guoxin.com/static/account/images/dw_zc20151203img1.jpg" style="width: 970px;height: 125px;" />
+                        </a>
+                    </div>
+
+                </div>
+                <div class="home-r fr" style="width: 195px;margin-top: 10px;">
+
+                    <div class="ad-index-a" style="width: 195px;height: 314px;">
+                        <a href="javascript:void(0)">
+                            <img src="http://www.91jin.com//uploads/20160624/576d010b15158.jpg" style="width: 195px;height: 314px;" />
+                        </a>
+                    </div>
+
+                    <div class="ad-index-b" style="width: 195px;height: 192px;margin-top: 10px;">
+                        <a href="javascript:void(0)">
+                            <img src="http://www.91jin.com//uploads/20160624/576d010b15158.jpg" style="width: 195px;height: 192px;" />
+                        </a>
+                    </div>
+                    
+                    <div class="ad-index-b" style="width: 195px;height: 420px;margin-top: 10px;">
+                        <a href="javascript:void(0)">
+                            <img src="http://www.91jin.com//uploads/20160624/576d010b15158.jpg" style="width: 195px;height: 420px;" />
+                        </a>
+                    </div>
+
+                    <div class="new-more">
+                        <div class="title">
+                            <h3>热门文章</h3>
+                        </div>
+                        <div class="detail-content">
+                            <ul>
+                                <li><span class="t-left"><a href="javascript:void(0);">如何寻找止损点？如何寻找止损点如何寻找止损点如何寻找止损点如何寻找止损点如何寻找止损点如何寻找止损点什么是现货白银止损点？a</a></span></li>
+                                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span></li>
+                                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span></li>
+                                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span></li>
+                                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span></li>
+                                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span></li>
+                                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span></li>
+                                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span></li>
+                                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span></li>
+                                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span></li>
+                                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span></li>
+                                <li><span class="t-left"><a href="javascript:void(0);">什么是现货白银止损点？如何寻找止损点？b</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        
+
+
+<div style="clear: both;"></div>
+<div id="footer">
+    <div>版权所有&nbsp;©&nbsp;2016&nbsp;天津国鑫黄金贵金属经营有限公司&nbsp;京ICP备:11015005号-2&nbsp;&nbsp;&nbsp;京公网安备11010802011162号 </div>
+    <div>风险提示：我们提供的现货产品保证金交易，在交易时存在较大的亏损风险。这些产品不一定适合每一位投资者，请确保您完全了解所涉及的风险。 </div>
+    <div>本站内容仅供参考，非操作建议，请您自行决策交易。</div>
+</div>
+
+
+
+<script type="text/javascript" src="./js/jquery.js"></script>
+
+
+        <script type="text/javascript" src="./js/idangerous.swiper.js"></script>
+        <script type="text/javascript" src="./js/index.js"></script>
+
+        </body>
+
+</html>

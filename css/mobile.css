@@ -1,0 +1,892 @@
+@charset "UTF-8";
+html {
+	font-size: 40px;
+	font-family: "Lantinghei SC", "Open Sans", "Hiragino Sans GB", "\5fae\8f6f\96c5\9ed1", "Microsoft YaHei", SimHei, Helvetica, Arial, SimSun;
+}
+
+body {
+	background-color: #fff;
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.yellow {
+	color: #ff7800 !important;
+}
+
+.blue {
+	color: #2a4175 !important;
+	font-weight: 500;
+}
+
+.content_box,
+#mIndex .header,
+#mIndex .mbanner,
+#mIndex .nav,
+#mIndex .mindex-title,
+#mIndex .adviser-sw,
+#mIndex .study,
+#mIndex .study-content,
+#mDetail .header,
+#mDetail .study,
+#mDetail .study-content,
+#mNews .header,
+#mNews .news-content,
+#mLogin .header,
+#mLogin .login-content,
+#mAdviser .header,
+#mAdviser .adviser-content,
+#mAdviserlive .header,
+#mAdviserlive .adviserlive-content,
+#mfooter {
+	max-width: 640px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.login-name {
+	font-size: 0.4rem !important;
+}
+
+#mIndex {
+	background-color: #ededed;
+}
+
+#mIndex .header {
+	padding: 0.5rem 0;
+}
+
+#mIndex .header .header-left {
+	float: left;
+	margin-left: 0.3rem;
+}
+
+#mIndex .header .header-left img {
+	width: 9.025rem;
+	vertical-align: middle;
+}
+
+#mIndex .header .header-right {
+	margin-right: 0.3rem;
+	float: right;
+}
+
+#mIndex .header .header-right img {
+	width: 1.375rem;
+	height: 1.375rem;
+	vertical-align: middle;
+}
+
+#mIndex .mbanner img {
+	width: 16rem;
+}
+
+#mIndex .nav {
+	background-color: #fff;
+	width: 16rem;
+}
+
+#mIndex .nav ul {
+	padding-top: 0.5rem;
+}
+
+#mIndex .nav ul li {
+	float: left;
+	width: 4rem;
+	width: 4rem;
+	text-align: center;
+	margin-bottom: 0.55rem;
+}
+
+#mIndex .nav ul li a {
+	display: block;
+}
+
+#mIndex .nav ul li a img {
+	width: 2.525rem;
+	vertical-align: top;
+	display: block;
+	margin: 0 auto 0.3rem;
+}
+
+#mIndex .nav ul li a span {
+	font-size: 0.7rem;
+	display: block;
+	text-align: center;
+	color: #353535;
+}
+
+#mIndex .mindex-title {
+	height: 1.7rem;
+	background-color: #fff;
+	margin-top: 0.3rem;
+	border-bottom: #d8d8d8 solid 1px;
+}
+
+#mIndex .mindex-title h3 {
+	color: #fb9400;
+	border-left: #fb9400 solid 5px;
+	font-size: 0.75rem;
+	text-indent: 0.2rem;
+	margin-top: 0.45rem;
+	float: left;
+	margin-left: 0.5rem;
+}
+
+#mIndex .mindex-title a {
+	float: right;
+	color: #999;
+	font-size: 0.575rem;
+	line-height: 1.7rem;
+	margin-right: 0.5rem;
+}
+
+#mIndex .adviser-sw .adviser-content {
+	width: 7.5rem;
+	padding: 1rem 0.5rem;
+	background: #fff;
+}
+
+#mIndex .adviser-sw .adviser-content .adv-left {
+	float: left;
+}
+
+#mIndex .adviser-sw .adviser-content .adv-left img {
+	width: 3rem;
+	height: 3rem;
+	float: left;
+	margin-top: 1rem;
+}
+
+#mIndex .adviser-sw .adviser-content .adv-right {
+	float: left;
+	margin-left: 0.3rem;
+}
+
+#mIndex .adviser-sw .adviser-content .adv-right h3 {
+	font-size: 0.65rem;
+	height: 1.325rem;
+	width: 3rem;
+	overflow: hidden;
+	line-height: 1.325rem;
+	text-indent: 0.3em;
+	color: #333;
+	margin: 0;
+}
+
+#mIndex .adviser-sw .adviser-content .adv-right>div span {
+	font-size: 0.6rem;
+	width: 4rem;
+	height: .9rem;
+	line-height: 0.9rem;
+	display: block;
+	overflow: hidden;
+}
+
+#mIndex .adviser-sw .adviser-content .adv-right>span {
+	font-size: 0.5rem;
+	color: #fb9400;
+	display: block;
+	margin-top: 0.1rem;
+}
+
+#mIndex .adviser-sw .adviser-content .adv-right>a {
+	background-color: #ff8400;
+	color: #fff;
+	font-size: 0.6rem;
+	-webkit-border-radius: 0.2rem;
+	border-radius: 0.2rem;
+	padding: 0.2rem 0.5rem;
+	margin-left: 1rem;
+	margin-top: 0.5rem;
+}
+
+#mIndex .adviser-sw .swiper-pagination-bullet-active {
+	background-color: #fb9400 !important;
+}
+
+#mIndex .study ul {
+	border-bottom: #d8d8d8 solid 1px;
+	height: 1.5rem;
+	background-color: #fff;
+}
+
+#mIndex .study ul li {
+	float: left;
+	font-size: 0.7rem;
+	width: 33%;
+	display: block;
+	line-height: 1.5rem;
+	text-align: center;
+}
+
+#mIndex .study ul li:nth-of-type(1) {
+	color: #fb9400;
+}
+
+#mIndex .study-content {
+	width: 16rem;
+	background-color: #fff;
+}
+
+#mIndex .study-content>div {
+	display: none;
+	background-color: #fff;
+}
+
+#mIndex .study-content>div:nth-of-type(1) {
+	display: block;
+}
+
+#mIndex .study-content ul li {
+	font-size: 0.7rem;
+	line-height: 1.5rem;
+}
+
+#mIndex .study-content ul li span:nth-of-type(1) {
+	height: 1.5rem;
+	width: 12rem;
+	float: left;
+	overflow: hidden;
+	margin-left: 0.5rem;
+}
+
+#mIndex .study-content ul li span:nth-of-type(2) {
+	display: block;
+	float: right;
+	margin-right: 0.5rem;
+}
+
+#mDetail {
+	background-color: #fff;
+}
+
+#mDetail .header {
+	background: #999;
+	height: 2rem;
+	line-height: 0;
+	border-bottom: #da5d03 solid 2px;
+	overflow: hidden;
+}
+
+#mDetail .header h3 {
+	text-align: center;
+	font-size: 1rem;
+	color: #fff;
+}
+
+#mDetail .header .home {
+	background: url("../images/home.png") left center no-repeat;
+	float: left;
+	width: 1.225rem;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+	margin: -1.5rem 0 0 0.5rem;
+	background-size: cover;
+}
+
+#mDetail .header .user {
+	float: right;
+	color: #fff;
+	width: 1.375rem;
+	height: 1.375rem;
+	margin: -1.7rem 0.5rem 0 0;
+	background: url("../images/urse_icon2.png") left top no-repeat;
+	background-size: cover;
+}
+
+#mDetail .header .logout {
+	float: right;
+	color: #fff;
+	width: 1.375rem;
+	height: 1.375rem;
+	margin: -.9rem 0.5rem 0 0;
+	font-size: .6rem;
+	background-size: cover;
+}
+
+#mDetail .study ul {
+	border-bottom: #d8d8d8 solid 1px;
+	height: 1.5rem;
+	background-color: #fff;
+}
+
+#mDetail .study ul li {
+	float: left;
+	font-size: 0.7rem;
+	width: 33%;
+	display: block;
+	line-height: 1.5rem;
+	text-align: center;
+}
+
+#mDetail .study ul li:nth-of-type(1) {
+	color: #fb9400;
+}
+
+#mDetail .study-content {
+	width: 16rem;
+}
+
+#mDetail .study-content>div {
+	display: none;
+	background-color: #fff;
+}
+
+#mDetail .study-content>div:nth-of-type(1) {
+	display: block;
+}
+
+#mDetail .study-content ul li {
+	font-size: 0.65rem;
+	line-height: 1.4rem;
+}
+
+#mDetail .study-content ul li span:nth-of-type(1) {
+	height: 1.4rem;
+	width: 12rem;
+	float: left;
+	overflow: hidden;
+	margin-left: 0.5rem;
+}
+
+#mDetail .study-content ul li span:nth-of-type(2) {
+	display: block;
+	float: right;
+	font-size: 0.5rem;
+	color: #999;
+	margin-right: 0.5rem;
+}
+
+#mNews .header {
+	background: #999;
+	height: 2rem;
+	line-height: 0;
+	border-bottom: #da5d03 solid 2px;
+	overflow: hidden;
+}
+
+#mNews .header h3 {
+	text-align: center;
+	font-size: 1rem;
+	color: #fff;
+}
+
+#mNews .header .home {
+	background: url("../images/home.png") left center no-repeat;
+	float: left;
+	width: 1.225rem;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+	margin: -1.5rem 0 0 0.5rem;
+	background-size: cover;
+}
+
+#mNews .header .user {
+	float: right;
+	color: #fff;
+	width: 1.375rem;
+	height: 1.375rem;
+	margin: -1.7rem 0.5rem 0 0;
+	background: url("../images/urse_icon2.png") left top no-repeat;
+	background-size: cover;
+}
+
+#mNews .header .logout {
+	float: right;
+	color: #fff;
+	width: 1.375rem;
+	height: 1.375rem;
+	margin: -.9rem 0.5rem 0 0;
+	font-size: .6rem;
+	background-size: cover;
+}
+
+#mNews .news-content>h3 {
+	text-align: center;
+	font-size: 0.75rem;
+	color: #f20000;
+	margin: 0.5rem 0;
+}
+
+#mNews .news-content>p {
+	font-size: 0.7rem;
+	color: #aaa;
+	position: relative;
+	vertical-align: text-top;
+	text-align: center;
+	margin: 0.2rem 0;
+}
+
+#mNews .news-content>div {
+	margin-top: 0.6rem;
+	padding: 0 0.5rem;
+	line-height: 0.9rem;
+	font-size: 0.6rem;
+	margin-bottom: 0.875rem;
+	color: #666;
+	text-indent: 0.8rem;
+}
+
+#mLogin .header {
+	background: #999;
+	height: 2rem;
+	line-height: 0;
+	border-bottom: #DA5D03 solid 2px;
+}
+
+#mLogin .header h3 {
+	text-align: center;
+	font-size: 1rem;
+	color: #fff;
+	font-weight: 300;
+}
+
+#mLogin .header .return {
+	float: left;
+	color: #fff;
+	height: 0.975rem;
+	line-height: 0.975rem;
+	margin-top: -1.5rem;
+	font-size: 0.8rem;
+	padding-left: 0.5rem;
+}
+
+#mLogin .header .return span {
+	background: url("../images/jiantou1.png") left center no-repeat;
+	width: 0.6rem;
+	height: 0.975rem;
+	line-height: 0.975rem;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 0.4rem;
+	background-size: cover;
+}
+
+#mLogin .login-content {
+	padding-bottom: 2rem;
+	padding-top: 0.6rem;
+}
+
+#mLogin .login-content .login-input {
+	height: 2.2rem;
+	margin-top: 0.6rem;
+}
+
+#mLogin .login-content .login-input input {
+	display: block;
+	margin: 0 auto;
+	width: 13.825rem !important;
+	font-size: 0.55rem;
+	height: 1.775rem;
+	line-height: 1.375rem;
+	width: 11.25rem;
+	background: #fff;
+	-webkit-border-radius: 0.2rem;
+	border-radius: 0.2rem;
+	border: 1px solid #ccc;
+	padding-left: 0.2rem;
+}
+
+#mLogin .login-content .login-input button {
+	display: block;
+	margin: 0 auto;
+	padding: 0.2rem;
+	width: 14.1rem !important;
+	height: 1.775rem;
+	background-color: #E71420;
+	font-size: 0.65rem;
+	-webkit-border-radius: 0.2rem;
+	border-radius: 0.2rem;
+	border: 0;
+	color: #fff;
+	padding-left: 0.2rem;
+}
+
+#mLogin .login-content .login-input input,
+#mLogin .login-content .login-input button:focus {
+	outline: 0;
+}
+
+#mLogin .login-content .error {
+	font-size: 0.4rem;
+	display: block;
+	color: #E71420;
+	margin-left: 1rem;
+}
+
+#mAdviser .header {
+	position: relative;
+	background-color: #2f4880;
+	height: 1.8rem;
+	width: 100%;
+}
+
+#mAdviser .header a {
+	font-size: 0.6rem;
+	color: #fff;
+	line-height: 1.8rem;
+}
+
+#mAdviser .header a:nth-of-type(1) {
+	position: absolute;
+	left: 0.5rem;
+}
+
+#mAdviser .header a:nth-of-type(2) {
+	position: absolute;
+	right: 0.5rem;
+	top: 0;
+}
+
+#mAdviser .header span {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 0.8rem;
+	line-height: 1.8rem;
+	color: #fff;
+}
+
+#mAdviser .adviser-content ul li {
+	display: block;
+	height: 4.2rem;
+	background-color: #fff;
+	border-bottom: 1px dashed #ccc;
+}
+
+#mAdviser .adviser-content ul li .advlist {
+	line-height: 0.8rem;
+}
+
+#mAdviser .adviser-content ul li .advlist .advimg {
+	float: left;
+	padding: 0.4rem;
+}
+
+#mAdviser .adviser-content ul li .advlist .advimg img {
+	width: 3.1rem;
+	border: 3px solid #f0f0f0;
+	-webkit-border-radius: 0.5rem;
+	border-radius: 0.5rem;
+}
+
+#mAdviser .adviser-content ul li .advlist .advcon {
+	width: 11rem;
+	height: 2.8rem;
+	overflow: hidden;
+	float: left;
+	padding: 0.4rem 0.4rem 0.4rem 0.2rem;
+	font-size: 0.5rem;
+}
+
+#mAdviserlive {
+	background-color: #f0f0f0;
+}
+
+#mAdviserlive .header {
+	position: relative;
+	background-color: #2f4880;
+	height: 1.8rem;
+	width: 100%;
+}
+
+#mAdviserlive .header a {
+	font-size: 0.6rem;
+	color: #fff;
+	line-height: 1.8rem;
+}
+
+#mAdviserlive .header a:nth-of-type(1) {
+	position: absolute;
+	left: 0.5rem;
+}
+
+#mAdviserlive .header a:nth-of-type(2) {
+	position: absolute;
+	right: 0.5rem;
+	top: 0;
+}
+
+#mAdviserlive .header span {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 0.8rem;
+	line-height: 1.8rem;
+	color: #fff;
+}
+
+#mAdviserlive .adviserlive-content .adviserliveul {
+	height: 1.5rem;
+	background-color: #039ce0;
+}
+
+#mAdviserlive .adviserlive-content .adviserliveul ul li {
+	font-size: 0.55rem;
+	color: #fff;
+	float: left;
+	line-height: 1.5rem;
+	margin-left: 0.5rem;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l>div {
+	display: none;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l>div:nth-of-type(1) {
+	display: block;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l .live ul li {
+	border-bottom: 1px solid #fff;
+	clear: both;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l .live ul li .live-left {
+	float: left;
+	padding: 0.5rem;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l .live ul li .live-left img {
+	width: 3.5rem;
+	-webkit-border-radius: 0.2rem;
+	border-radius: 0.2rem;
+	border: 1px solid #fff;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l .live ul li .live-right {
+	padding: 0.5rem 0.5rem 0.5rem 0;
+	float: left;
+	width: 10.5rem;
+	font-size: 0.5rem;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l .live ul li .live-right>div:nth-of-type(2) {
+	margin-top: 0.3rem;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l .live ul li .live-right>div:nth-of-type(3) {
+	border: 1px dotted #e5e5e5;
+	margin-top: 0.3rem;
+	background-color: #fff;
+	-webkit-border-radius: 0.5rem;
+	border-radius: 0.5rem;
+	padding: 0.3rem;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l .answer ul li {
+	border-bottom: 1px solid #fff;
+	clear: both;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l .answer ul li .live-right {
+	padding: 0.5rem;
+	float: left;
+	width: 15rem;
+	font-size: 0.5rem;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l .answer ul li .live-right>.live-right-title {
+	margin-top: 0.3rem;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l .answer ul li .live-right>.live-right-content {
+	border: 1px dotted #e5e5e5;
+	margin-top: 0.3rem;
+	background-color: #fff;
+	-webkit-border-radius: 0.5rem;
+	border-radius: 0.5rem;
+	padding: 0.3rem;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l .question {
+	padding-bottom: 1.5rem;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l .question .question-content {
+	width: 13.5rem;
+	-webkit-border-radius: 0.5rem;
+	border-radius: 0.5rem;
+	margin: 0 auto;
+	height: 6rem;
+	margin-top: 0.8rem;
+	border: 1px solid #ccc;
+	font-size: 0.7rem;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l .question .question-content:focus {
+	outline: 0;
+}
+
+#mAdviserlive .adviserlive-content .adviserlive-l .question button {
+	background-color: #039ce0;
+	width: 13.5rem;
+	-webkit-border-radius: 0.3rem;
+	border-radius: 0.3rem;
+	color: #fff;
+	border: 0;
+	height: 1.5rem;
+	display: block;
+	margin: 0.6rem auto 0;
+	font-size: 0.6rem;
+}
+
+#mLive {
+	font-family: "Microsoft YaHei";
+}
+
+#mLive .header {
+	position: relative;
+	background-color: #282a2e;
+	height: 1.8rem;
+	width: 100%;
+	position: relative;
+}
+
+#mLive .header a {
+	font-size: 0.6rem;
+	color: #fff;
+	line-height: 1.8rem;
+}
+
+#mLive .header a:nth-of-type(1) {
+	position: absolute;
+	left: 0.5rem;
+}
+
+#mLive .header a:nth-of-type(1) img {
+	width: 0.4rem;
+	margin-top: 0.1rem;
+}
+
+#mLive .header a:nth-of-type(2) {
+	position: absolute;
+	right: 0.5rem;
+	top: 0;
+}
+
+#mLive .header span {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 0.8rem;
+	line-height: 1.8rem;
+	color: #fff;
+}
+
+#mLive .mlive-live {
+	background-color: #000;
+	height: 200px;
+}
+
+#mLive .m-title {
+	color: #ff8400;
+	border-bottom: 1px dashed #ff8400;
+	line-height: 30px;
+	font-size: 15px;
+	padding-left: 5px;
+}
+
+#mLive .mlive-text {
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #EBEBEB;
+}
+
+#mLive .mlive-text .mobile-live ul {
+	margin: 0 8px;
+}
+
+#mLive .mlive-text .mobile-live ul li .live-answer {
+	font-size: 13px;
+	margin-top: 5px;
+	line-height: 15px;
+	margin-bottom: 8px;
+}
+
+#mLive .mlive-text .mobile-live ul li .live-answer .answer-a {
+	font-size: 13px;
+}
+
+#mLive .mlive-text .mobile-live ul li .live-answer .answer-a span {
+	padding-left: 10px;
+	color: #ff8400;
+	font-weight: 500;
+}
+
+#mLive .mlive-text .mobile-live ul li .live-answer .answer-b {
+	margin-top: 5px;
+	background-color: #fff;
+	padding: 8px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 18px;
+	word-wrap: break-word;
+	/*遇到空格整个单词显示不完就自动换行到下一行*/
+	word-break: break-all;
+	/*如果一行没有空格就到头截断单词换行*/
+}
+
+#mLive .mlive-sub {
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	border-top: 1px solid #d5d6d9;
+}
+
+#mLive .mlive-sub input {
+	border: 1px solid #ccc;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width: 71%;
+	height: 35px;
+	float: left;
+	margin-top: 3px;
+}
+
+#mLive .mlive-sub button {
+	width: 23%;
+	display: inline-block;
+	height: 45px;
+	border: 0;
+	background-color: #ff8400;
+	color: #fff;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	float: left;
+	margin-left: 1%;
+	margin-top: 3px;
+}
+
+#mLive .mlive-sub input,
+#mLive .mlive-sub button:focus {
+	outline: 0;
+}
+
+#mfooter {
+	width: 16rem;
+	background-color: #e7e7e7;
+	font-size: 0.6rem;
+	text-align: center;
+	line-height: 0.5rem;
+}

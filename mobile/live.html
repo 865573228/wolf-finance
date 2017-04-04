@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="../css/mobile.css">
+        <link href="http://static.gensee.com/webcast/static/sdk/css/bootstrap.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../css/swiper-3.3.1.min.css">
+        <script type="text/javascript">
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+            var _html = document.getElementsByTagName('html')[0];
+            view_width > 640 ? _html.style.fontSize = 640 / 16 + 'px' : _html.style.fontSize = view_width / 16 + 'px';
+        </script>
+    </head>
+
+    <body>
+
+        <div id="mLive">
+            <div class="header">
+                <a href="javascript:void(0);">
+                    <img src="./images/jiantou1.png" />
+                </a>
+                <span>视频直播</span>
+                <!--<a href="javascript:void(0);">登录</a>-->
+                <a href="javascript:void(0);">***</a>
+            </div>
+
+            <div class="mlive-live">
+                <gs:video-live site="ylzb8888.gensee.com/" nickname="nf" uname="123456" ctx="webcast" authcode="123456" ownerid="b4cfecd3d7e94cd28116fecef4593526" />
+            </div>
+<div class="m-title">直播互动</div>
+            <div class="mlive-text">
+                    
+                    <div class="mobile-live">
+                        <ul>
+                            <!--<li>
+                                <div class="live-answer">
+                                    <div class="answer-a">15:30<span>会飞的大头:</span></div>
+                                    <div class="answer-b">欢迎光临国鑫金服视频直播室欢迎光临国鑫金服视频</div>
+                                </div>  
+                            </li>-->
+                     
+                        </ul>
+                    </div>
+            </div>
+
+            <div class="mlive-sub">
+                <input type="text" id="mlivecontent" placeholder="想说些什么?" />
+                <button id="mliveBtnsub">发送</button>
+            </div>
+
+        </div>
+
+        <script type="text/javascript" src="../js/jquery.js"></script>
+        <script type="text/javascript" src="../js/swiper-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="http://static.gensee.com/webcast/static/sdk/js/gssdk.js"></script>
+        <script type="text/javascript" src="../js/mobile.js"></script>
+        <script type="text/javascript" src="../js/mlive.js"></script>
+    </body>
+
+</html>

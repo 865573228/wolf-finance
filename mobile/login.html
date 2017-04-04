@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="../css/mobile.css">
+        <link rel="stylesheet" type="text/css" href="../css/swiper-3.3.1.min.css">
+        <script type="text/javascript">
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+            var _html = document.getElementsByTagName('html')[0];
+            view_width > 640 ? _html.style.fontSize = 640 / 16 + 'px' : _html.style.fontSize = view_width / 16 + 'px';
+        </script>
+    </head>
+
+    <body>
+
+        <div id="mLogin">
+            <div class="header">
+                <h3>登录</h3>
+                <a class="return" href="javascript:void(0);"><span></span>返回</a>
+            </div>
+            <div class="login-content">
+                <form id="mobileLogin">
+                    <div class="login-input">
+                        <input type="text" name="username" placeholder="请输入账号" />
+                    </div>
+                    <div class="login-input">
+                        <input type="password" name="password" placeholder="请输入密码" />
+                    </div>
+                    <div class="login-input">
+                        <button>登录</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="mfooter">
+    <p>Copyright © 2010-2016国鑫黄金贵金属</p>
+    <p>投资有风险 入市需谨慎</p>
+</div>
+        <script type="text/javascript" src="../js/jquery.js"></script>
+        <script type="text/javascript" src="../js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="../js/swiper-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../js/mobile.js"></script>
+    </body>
+
+</html>

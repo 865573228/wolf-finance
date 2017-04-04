@@ -1,0 +1,45 @@
+.new-box {
+  margin-top: 10px;
+  height: auto;
+  overflow: hidden;
+  border: solid 1px #bed7e8; }
+  .new-box .title {
+    border-bottom: 1px solid #bed7e8;
+    height: 28px;
+    line-height: 28px;
+    padding-right: 10px;
+    background: url("../images/repxBg.png") repeat-x 0 -228px; }
+    .new-box .title h3 {
+      float: left;
+      font-size: 14px;
+      padding: 0 15px;
+      font-weight: 500;
+      text-align: left;
+      line-height: 28px;
+      border-right: solid 1px #bed7e8;
+      position: relative;
+      top: 1px;
+      background: url("../images/navBtn.png") no-repeat 0 -66px; }
+    .new-box .title span {
+      float: right; }
+      .new-box .title span a {
+        font-size: 12px;
+        color: #1e50a2; }
+  .new-box .detail-content ul {
+    padding-top: 6px; }
+    .new-box .detail-content ul li {
+      height: 26px;
+      line-height: 26px;
+      overflow: hidden; }
+      .new-box .detail-content ul li span {
+        font-size: 13px; }
+        .new-box .detail-content ul li span a:hover {
+          text-decoration: underline;
+          color: darkblue; }
+      .new-box .detail-content ul li span:nth-of-type(1) {
+        width: 380px;
+        float: left;
+        padding-left: 5px; }
+      .new-box .detail-content ul li span:nth-of-type(2) {
+        float: right;
+        padding-right: 5px; }
